@@ -203,8 +203,8 @@
                 <v-rating
                 background-color="purple lighten-3"
                 color="purple"
-                value= 5
-                length="10"
+                :value= 5
+                :length="10"
                 :readonly="readonly"></v-rating>
               </div>
             </li>
@@ -212,10 +212,10 @@
               <div class="resume-item d-flex flex-column flex-md-row">
                 <span>CSS</span>
                 <v-rating
+                :value= 5
                 background-color="purple lighten-3"
                 color="purple"
-                value= 5
-                length="10"
+                :length="10"
                 :readonly="readonly"></v-rating>
               </div>
             </li>
